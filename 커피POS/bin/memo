@@ -1,0 +1,29 @@
+
+drop table coffee;
+create table coffee(
+coffeename varchar2(20),
+coffeesize varchar2(10),
+shot varchar2(10),
+coffeetemp varchar2(10),
+price number 
+);
+	
+
+col coffeename for a20;
+col coffeesize for a10;
+col shot for a14;
+col coffeetemp for a10;
+col price for 99999;
+
+commit;
+select * from coffee;
+
+
+
+
+
+
+
+
+
+
